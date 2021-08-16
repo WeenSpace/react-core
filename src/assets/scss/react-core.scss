@@ -1,0 +1,29 @@
+/*!
+
+ =========================================================
+ * React Core v1.0.0 based on Bootstrap Kit - v1.0.0 (Bootstrap 4.0.0 Final Edition)
+ =========================================================
+
+ * Product Page: https://www.weenspace.com/product/react-core
+ * Copyright 2021 WeenSpace (https://www.weenspace.com)
+ * Licensed under MIT (https://github.com/weenspace/react-core/blob/master/LICENSE.md)
+
+ * Coded by WeenSpace
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+@import "core/variables";
+@import "core/mixins";
+
+// Core Components
+@import "core/misc";
+
+// Core Plugins
+
+// @import "plugins/plugin-datetime-picker";
+@import "plugins/plugin-nouislider";
+@import "plugins/plugin-react-datetime";
+@import "plugins/plugin-react-slick";

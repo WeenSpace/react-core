@@ -1,0 +1,25 @@
+{
+  "name": "react-core",
+  "homepage": "https://github.com/WeenSpace/react-core",
+  "authors": [
+    "WeenSpace"
+  ],
+  "description": "A Badass Material-UI Kit based on Material Design",
+  "main": "dist/index.js",
+  "keywords": [
+    "material",
+    "design",
+    "material-ui",
+    "google",
+    "twitter"
+  ],
+  "license": "WeenSpace License",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
