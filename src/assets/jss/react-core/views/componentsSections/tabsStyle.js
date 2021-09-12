@@ -1,8 +1,7 @@
-import { container } from "assets/jss/react-core.js";
+import { container } from "assets/jss/react-core";
 
 const tabsStyle = {
   section: {
-    background: "#EEEEEE",
     padding: "70px 0",
   },
   container,

@@ -4,15 +4,17 @@ import {
   infoColor,
   successColor,
   warningColor,
+  whiteColor,
   dangerColor,
-} from "assets/jss/react-core.js";
+  hexToRgb,
+} from "assets/jss/react-core";
 
 const paginationStyle = {
   pagination: {
-    display: "inline-block",
+    display: "flex",
     paddingLeft: "0",
-    margin: "0 0 20px 0",
-    borderRadius: "4px",
+    listStyle: "none",
+    borderRadius: "0.25rem",
   },
   paginationItem: {
     display: "inline",
@@ -40,12 +42,12 @@ const paginationStyle = {
     textDecoration: "none",
     boxSizing: "border-box",
     "&,&:hover,&:focus": {
-      color: grayColor,
+      color: grayColor[0],
     },
     "&:hover,&:focus": {
       zIndex: "3",
-      backgroundColor: "#eee",
-      borderColor: "#ddd",
+      backgroundColor: grayColor[2],
+      borderColor: grayColor[6],
     },
     "&:hover": {
       cursor: "pointer",
@@ -53,11 +55,17 @@ const paginationStyle = {
   },
   primary: {
     "&,&:hover,&:focus": {
-      backgroundColor: primaryColor,
-      borderColor: primaryColor,
-      color: "#FFFFFF",
+      backgroundColor: primaryColor[0],
+      borderColor: primaryColor[0],
+      color: whiteColor,
       boxShadow:
-        "0 4px 5px 0 rgba(156, 39, 176, 0.14), 0 1px 10px 0 rgba(156, 39, 176, 0.12), 0 2px 4px -1px rgba(156, 39, 176, 0.2)",
+        "0 4px 5px 0 rgba(" +
+        hexToRgb(primaryColor[0]) +
+        ", 0.14), 0 1px 10px 0 rgba(" +
+        hexToRgb(primaryColor[0]) +
+        ", 0.12), 0 2px 4px -1px rgba(" +
+        hexToRgb(primaryColor[0]) +
+        ", 0.2)",
     },
     "&:hover,&:focus": {
       zIndex: "2",
@@ -66,11 +74,17 @@ const paginationStyle = {
   },
   info: {
     "&,&:hover,&:focus": {
-      backgroundColor: infoColor,
-      borderColor: infoColor,
-      color: "#FFFFFF",
+      backgroundColor: infoColor[0],
+      borderColor: infoColor[0],
+      color: whiteColor,
       boxShadow:
-        "0 4px 5px 0 rgba(0, 188, 212, 0.14), 0 1px 10px 0 rgba(0, 188, 212, 0.12), 0 2px 4px -1px rgba(0, 188, 212, 0.2)",
+        "0 4px 5px 0 rgba(" +
+        hexToRgb(infoColor[0]) +
+        ", 0.14), 0 1px 10px 0 rgba(" +
+        hexToRgb(infoColor[0]) +
+        ", 0.12), 0 2px 4px -1px rgba(" +
+        hexToRgb(infoColor[0]) +
+        ", 0.2)",
     },
     "&:hover,&:focus": {
       zIndex: "2",
@@ -79,11 +93,17 @@ const paginationStyle = {
   },
   success: {
     "&,&:hover,&:focus": {
-      backgroundColor: successColor,
-      borderColor: successColor,
-      color: "#FFFFFF",
+      backgroundColor: successColor[0],
+      borderColor: successColor[0],
+      color: whiteColor,
       boxShadow:
-        "0 4px 5px 0 rgba(76, 175, 80, 0.14), 0 1px 10px 0 rgba(76, 175, 80, 0.12), 0 2px 4px -1px rgba(76, 175, 80, 0.2)",
+        "0 4px 5px 0 rgba(" +
+        hexToRgb(successColor[0]) +
+        ", 0.14), 0 1px 10px 0 rgba(" +
+        hexToRgb(successColor[0]) +
+        ", 0.12), 0 2px 4px -1px rgba(" +
+        hexToRgb(successColor[0]) +
+        ", 0.2)",
     },
     "&:hover,&:focus": {
       zIndex: "2",
@@ -92,11 +112,17 @@ const paginationStyle = {
   },
   warning: {
     "&,&:hover,&:focus": {
-      backgroundColor: warningColor,
-      borderColor: warningColor,
-      color: "#FFFFFF",
+      backgroundColor: warningColor[0],
+      borderColor: warningColor[0],
+      color: whiteColor,
       boxShadow:
-        "0 4px 5px 0 rgba(255, 152, 0, 0.14), 0 1px 10px 0 rgba(255, 152, 0, 0.12), 0 2px 4px -1px rgba(255, 152, 0, 0.2)",
+        "0 4px 5px 0 rgba(" +
+        hexToRgb(warningColor[0]) +
+        ", 0.14), 0 1px 10px 0 rgba(" +
+        hexToRgb(warningColor[0]) +
+        ", 0.12), 0 2px 4px -1px rgba(" +
+        hexToRgb(warningColor[0]) +
+        ", 0.2)",
     },
     "&:hover,&:focus": {
       zIndex: "2",
@@ -105,11 +131,17 @@ const paginationStyle = {
   },
   danger: {
     "&,&:hover,&:focus": {
-      backgroundColor: dangerColor,
-      borderColor: dangerColor,
-      color: "#FFFFFF",
+      backgroundColor: dangerColor[0],
+      borderColor: dangerColor[0],
+      color: whiteColor,
       boxShadow:
-        "0 4px 5px 0 rgba(244, 67, 54, 0.14), 0 1px 10px 0 rgba(244, 67, 54, 0.12), 0 2px 4px -1px rgba(244, 67, 54, 0.2)",
+        "0 4px 5px 0 rgba(" +
+        hexToRgb(dangerColor[0]) +
+        ", 0.14), 0 1px 10px 0 rgba(" +
+        hexToRgb(dangerColor[0]) +
+        ", 0.12), 0 2px 4px -1px rgba(" +
+        hexToRgb(dangerColor[0]) +
+        ", 0.2)",
     },
     "&:hover,&:focus": {
       zIndex: "2",
@@ -118,10 +150,10 @@ const paginationStyle = {
   },
   disabled: {
     "&,&:hover,&:focus": {
-      color: "#777",
+      color: grayColor[10],
       cursor: "not-allowed",
-      backgroundColor: "#fff",
-      borderColor: "#ddd",
+      backgroundColor: whiteColor,
+      borderColor: grayColor[6],
     },
   },
 };

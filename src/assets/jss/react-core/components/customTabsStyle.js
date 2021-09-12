@@ -1,43 +1,55 @@
+import {
+  whiteColor,
+  defaultFont,
+  hexToRgb,
+} from "assets/jss/react-core";
+
 const customTabsStyle = {
   cardTitle: {
+    ...defaultFont,
     float: "left",
-    padding: "10px 10px 10px 0px",
+    padding: "10px 10px 10px 0",
     lineHeight: "24px",
+    fontSize: "14px",
+    color: whiteColor,
   },
   cardTitleRTL: {
     float: "right",
     padding: "10px 0px 10px 10px !important",
   },
   displayNone: {
-    display: "none !important",
+    display: "none",
   },
-  tabsRoot: {
+  tabsContainer: {},
+  tabsContainerRTL: {
+    float: "right",
+  },
+  tabIcon: {
+    width: "24px",
+    height: "24px",
+    marginRight: "4px",
+  },
+  customTabsRoot: {
     minHeight: "unset !important",
   },
-  tabRootButton: {
-    minHeight: "unset !important",
-    minWidth: "unset !important",
-    width: "unset !important",
-    height: "unset !important",
-    maxWidth: "unset !important",
-    maxHeight: "unset !important",
-    padding: "10px 15px",
+  customTabSelected: {
+    backgroundColor: "rgba(" + hexToRgb(whiteColor) + ", 0.2)",
+    transition: "background-color .4s",
+  },
+  customTabRoot: {
+    width: "auto",
+    minWidth: "70px",
     borderRadius: "3px",
-    lineHeight: "24px",
-    border: "0 !important",
-    color: "#fff !important",
-    marginLeft: "4px",
+    opacity: "1",
+    height: "auto",
+    padding: "10px 15px",
+    display: "block",
+    minHeight: "unset",
     fontWeight: "500",
     fontSize: "12px",
-    "&:last-child": {
-      marginLeft: "0px",
-    },
+    lineHeight: "24px",
   },
-  tabSelected: {
-    backgroundColor: "rgba(255, 255, 255, 0.2)",
-    transition: "0.2s background-color 0.1s",
-  },
-  tabWrapper: {
+  customTabWrapper: {
     display: "inline-block",
     minHeight: "unset !important",
     minWidth: "unset !important",

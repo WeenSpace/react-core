@@ -1,19 +1,26 @@
-import { title } from "assets/jss/react-core.js";
+import {
+  title,
+  mrAuto,
+  mlAuto,
+  grayColor,
+} from "assets/jss/react-core";
 
 const workStyle = {
+  mrAuto,
+  mlAuto,
   section: {
     padding: "70px 0",
   },
   title: {
     ...title,
-    marginBottom: "50px",
+    marginBottom: "1rem",
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
     textAlign: "center",
   },
   description: {
-    color: "#999",
+    color: grayColor[0],
     textAlign: "center",
   },
   textCenter: {

@@ -12,15 +12,15 @@ const styles = {
     minHeight: "1px",
     paddingRight: "15px",
     paddingLeft: "15px",
-    flexBasis: "auto",
+    /* flexBasis: "auto" */
   },
 };
 
 const useStyles = makeStyles(styles);
 
 export default function GridItem(props) {
-  const classes = useStyles();
   const { children, className, ...rest } = props;
+  const classes = useStyles();
   return (
     <Grid item {...rest} className={classes.grid + " " + className}>
       {children}

@@ -1,4 +1,4 @@
-import { container, title } from "assets/jss/react-core.js";
+import { container, title } from "assets/jss/react-core";
 
 const pillsStyle = {
   section: {

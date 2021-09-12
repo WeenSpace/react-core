@@ -17,4 +17,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
   ],
+  rules: {
+    'prettier/prettier': 0,
+  },
 };

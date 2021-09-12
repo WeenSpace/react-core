@@ -1,14 +1,34 @@
-import { container, title } from "assets/jss/react-core.js";
+import {
+  container,
+  title,
+  cardTitle,
+  description,
+  mlAuto,
+  mrAuto,
+  blackColor,
+  whiteColor,
+  grayColor,
+  hexToRgb,
+} from "assets/jss/react-core";
 
-import modalStyle from "assets/jss/react-core/modalStyle.js";
-import tooltipsStyle from "assets/jss/react-core/tooltipsStyle.js";
-import popoverStyles from "assets/jss/react-core/popoverStyles.js";
+import modalStyle from "assets/jss/react-core/modalStyle";
+import tooltipsStyle from "assets/jss/react-core/tooltipsStyle";
+import popoverStyles from "assets/jss/react-core/popoverStyles";
+import customCheckboxRadioSwitch from "assets/jss/react-core/customCheckboxRadioSwitchStyle";
 
-const javascriptStyles = {
+const javascriptStyles = (theme) => ({
+  container,
+  description,
+  cardTitle,
+  mlAuto,
+  mrAuto,
+  ...tooltipsStyle,
+  ...popoverStyles,
+  ...modalStyle(theme),
+  ...customCheckboxRadioSwitch,
   section: {
     padding: "70px 0 0",
   },
-  container,
   title: {
     ...title,
     marginTop: "30px",
@@ -16,13 +36,12 @@ const javascriptStyles = {
     textDecoration: "none",
   },
   icon: {
-    width: "17px",
-    height: "17px",
-    marginRight: "4px",
+    width: "24px",
+    height: "24px",
+    color: grayColor[13],
   },
-  ...modalStyle,
   label: {
-    color: "rgba(0, 0, 0, 0.26)",
+    color: "rgba(" + hexToRgb(blackColor) + ", 0.26)",
     cursor: "pointer",
     display: "inline-flex",
     fontSize: "14px",
@@ -30,10 +49,46 @@ const javascriptStyles = {
     lineHeight: "1.428571429",
     fontWeight: "400",
     paddingLeft: "0",
-    letterSpacing: "normal",
   },
-  ...tooltipsStyle,
-  ...popoverStyles,
-};
+  textCenter: {
+    textAlign: "center",
+  },
+  cardTitleWhite: {
+    ...cardTitle,
+    color: whiteColor + "  !important",
+  },
+  socialLine: {
+    marginTop: "1rem",
+    textAlign: "center",
+    padding: "0",
+  },
+  socialLineButton: {
+    "&, &:hover": { color: whiteColor },
+    marginLeft: "5px",
+    marginRight: "5px",
+  },
+  cardLoginHeader: {
+    marginTop: "-40px",
+    padding: "20px 0",
+    width: "100%",
+    marginBottom: "15px",
+  },
+  cardLoginBody: {
+    paddingTop: "0",
+    paddingBottom: "0",
+  },
+  justifyContentCenter: {
+    WebkitBoxPack: "center !important",
+    MsFlexPack: "center !important",
+    justifyContent: "center !important",
+  },
+  infoArea: {
+    padding: "0px 0px 20px !important",
+  },
+  space50: {
+    height: "50px",
+    display: "block",
+  },
+});
 
 export default javascriptStyles;

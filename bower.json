@@ -4,7 +4,7 @@
   "authors": [
     "WeenSpace"
   ],
-  "description": "A Badass Material-UI Kit based on Material Design",
+  "description": "A Badass Material React UI Components on Material Design",
   "main": "dist/index.js",
   "keywords": [
     "material",

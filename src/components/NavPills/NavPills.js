@@ -6,14 +6,14 @@ import PropTypes from "prop-types";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
+import Tabs from "@material-ui/core/Tabs";
 
 // core components
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
 
-import styles from "assets/jss/react-core/components/navPillsStyle.js";
+import styles from "assets/jss/react-core/components/navPillsStyle";
 
 const useStyles = makeStyles(styles);
 
@@ -22,8 +22,8 @@ export default function NavPills(props) {
   const handleChange = (event, active) => {
     setActive(active);
   };
-  const classes = useStyles();
   const { tabs, color, horizontal, alignCenter } = props;
+  const classes = useStyles();
   const flexContainerClasses = classNames({
     [classes.flexContainer]: true,
     [classes.horizontalDisplay]: horizontal !== undefined,
@@ -57,8 +57,8 @@ export default function NavPills(props) {
             {...icon}
             classes={{
               root: pillsClasses,
+              label: classes.label,
               selected: classes[color],
-              wrapper: classes.tabWrapper,
             }}
           />
         );

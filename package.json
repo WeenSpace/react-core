@@ -1,24 +1,46 @@
 {
-  "name": "react-core",
-  "version": "1.0.0",
+  "homepage": "https://weenspace.github.io/react-core",
+  "name": "@weenspace/react-core",
+  "version": "1.0.1",
   "description": "Material React Core. Coded by WeenSpace",
-  "private": true,
+  "private": false,
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeenSpace/react-core.git"
+  },
+  "author": "WeenSpace",
+  "bugs": {
+    "url": "https://github.com/WeenSpace/react-core"
+  },
+  "keywords": [
+    "react",
+    "material",
+    "react-components",
+    "material design"
+  ],
+  "license": "MIT",
   "dependencies": {
     "@babel/core": "7.14.0",
-    "@material-ui/core": "4.11.4",
+    "@material-ui/core": "4.12.3",
     "@material-ui/icons": "4.11.2",
+    "animate.css": "4.1.1",
     "classnames": "2.3.1",
+    "google-maps-react": "^2.0.6",
     "moment": "2.29.1",
     "node-sass": "6.0.0",
     "nouislider": "15.1.0",
     "prop-types": "15.7.2",
     "react": "17.0.2",
+    "react-animate-on-scroll": "2.1.5",
     "react-datetime": "3.0.4",
     "react-dom": "17.0.2",
+    "react-image-gallery": "1.2.7",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
-    "react-slick": "0.28.1"
+    "react-slick": "0.28.1",
+    "react-tagsinput": "3.19.0",
+    "typescript": "4.2.4"
   },
   "devDependencies": {
     "@babel/cli": "7.13.16",
@@ -28,6 +50,7 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.23.2",
+    "gh-pages": "3.2.3",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.9",
     "prettier": "2.3.0"
@@ -36,6 +59,8 @@
     "typescript": "4.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy-gh": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",

@@ -1,4 +1,4 @@
-import { title } from "assets/jss/react-core.js";
+import { title, grayColor } from "assets/jss/react-core";
 
 const productStyle = {
   section: {
@@ -13,7 +13,7 @@ const productStyle = {
     textDecoration: "none",
   },
   description: {
-    color: "#999",
+    color: grayColor[0],
   },
 };
 

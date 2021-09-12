@@ -9,7 +9,7 @@ gulp.task("licenses", async function () {
       gap.prependText(`/*!
 
 =========================================================
-* React Core - v1.0.0
+* React Core - v2.0.0
 =========================================================
 
 * Product Page: https://www.weenspace.com/product/now-ui-kit-pro-react
@@ -32,7 +32,7 @@ gulp.task("licenses", async function () {
       gap.prependText(`<!--
 
 =========================================================
-* React Core - v1.0.0
+* React Core - v2.0.0
 =========================================================
 
 * Product Page: https://www.weenspace.com/product/now-ui-kit-pro-react
@@ -55,7 +55,7 @@ gulp.task("licenses", async function () {
       gap.prependText(`/*!
 
 =========================================================
-* React Core - v1.0.0
+* React Core - v2.0.0
 =========================================================
 
 * Product Page: https://www.weenspace.com/product/now-ui-kit-pro-react

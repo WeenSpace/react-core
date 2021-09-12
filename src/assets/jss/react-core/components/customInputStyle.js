@@ -2,45 +2,39 @@ import {
   primaryColor,
   dangerColor,
   successColor,
+  whiteColor,
+  grayColor,
   defaultFont,
-} from "assets/jss/react-core.js";
+} from "assets/jss/react-core";
 
 const customInputStyle = {
   disabled: {
     "&:before": {
-      borderColor: "transparent !important",
+      backgroundColor: "transparent !important",
     },
   },
   underline: {
     "&:hover:not($disabled):before,&:before": {
-      borderColor: "#D2D2D2 !important",
-      borderWidth: "1px !important",
+      borderBottomColor: grayColor[11] + " !important",
+      borderBottomWidth: "1px !important",
     },
     "&:after": {
-      borderColor: primaryColor,
+      borderBottomColor: primaryColor[0],
     },
   },
   underlineError: {
     "&:after": {
-      borderColor: dangerColor,
+      borderBottomColor: dangerColor[0],
     },
   },
   underlineSuccess: {
     "&:after": {
-      borderColor: successColor,
-    },
-  },
-  whiteUnderline: {
-    "&:hover:not($disabled):before,&:before": {
-      borderColor: "#FFFFFF",
-    },
-    "&:after": {
-      borderColor: "#FFFFFF",
+      borderBottomColor: successColor[0],
     },
   },
   labelRoot: {
     ...defaultFont,
-    color: "#AAAAAA !important",
+    color: grayColor[12] + " !important",
     fontWeight: "400",
     fontSize: "14px",
     lineHeight: "1.42857",
@@ -51,21 +45,40 @@ const customInputStyle = {
     },
   },
   labelRootError: {
-    color: dangerColor + " !important",
+    color: dangerColor[0] + " !important",
   },
   labelRootSuccess: {
-    color: successColor + " !important",
+    color: successColor[0] + " !important",
+  },
+  feedback: {
+    position: "absolute",
+    bottom: "4px",
+    right: "0",
+    zIndex: "2",
+    display: "block",
+    width: "24px",
+    height: "24px",
+    textAlign: "center",
+    pointerEvents: "none",
   },
   formControl: {
     margin: "0 0 17px 0",
     paddingTop: "27px",
     position: "relative",
     "& svg,& .fab,& .far,& .fal,& .fas,& .material-icons": {
-      color: "#495057",
+      color: grayColor[13],
+    },
+  },
+  whiteUnderline: {
+    "&:hover:not($disabled):before,&:before": {
+      borderBottomColor: whiteColor,
+    },
+    "&:after": {
+      borderBottomColor: whiteColor,
     },
   },
   input: {
-    color: "#495057",
+    color: grayColor[13],
     height: "unset",
     "&,&::placeholder": {
       fontSize: "14px",
@@ -75,12 +88,12 @@ const customInputStyle = {
       opacity: "1",
     },
     "&::placeholder": {
-      color: "#AAAAAA",
+      color: grayColor[12],
     },
   },
   whiteInput: {
     "&,&::placeholder": {
-      color: "#FFFFFF",
+      color: whiteColor,
       opacity: "1",
     },
   },

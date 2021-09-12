@@ -1,18 +1,28 @@
-import { container, title } from "assets/jss/react-core.js";
+import {
+  container,
+  title,
+  whiteColor,
+  section,
+} from "assets/jss/react-core";
 
 const notificationsStyles = {
   section: {
-    backgroundColor: "#FFFFFF",
+    backgroundColor: whiteColor,
     display: "block",
     width: "100%",
     position: "relative",
-    padding: "0",
+    padding: "70px 0",
+    ...section,
   },
   title: {
     ...title,
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
+  },
+  space70: {
+    height: "70px",
+    display: "block",
   },
   container,
 };

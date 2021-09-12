@@ -1,4 +1,4 @@
-import { container } from "assets/jss/react-core.js";
+import { container } from "assets/jss/react-core";
 
 const carouselStyle = {
   section: {

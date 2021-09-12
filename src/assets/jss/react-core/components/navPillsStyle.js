@@ -5,7 +5,11 @@ import {
   successColor,
   warningColor,
   dangerColor,
-} from "assets/jss/react-core.js";
+  blackColor,
+  whiteColor,
+  grayColor,
+  hexToRgb,
+} from "assets/jss/react-core";
 
 const navPillsStyle = (theme) => ({
   root: {
@@ -13,13 +17,6 @@ const navPillsStyle = (theme) => ({
     paddingLeft: "0",
     marginBottom: "0",
     overflow: "visible !important",
-    lineHeight: "24px",
-    textTransform: "uppercase",
-    fontSize: "12px",
-    fontWeight: "500",
-    position: "relative",
-    display: "block",
-    color: "inherit",
   },
   flexContainer: {
     [theme.breakpoints.down("xs")]: {
@@ -45,11 +42,16 @@ const navPillsStyle = (theme) => ({
     textAlign: "center",
     transition: "all .3s",
     padding: "10px 15px",
-    color: "#555555",
+    color: grayColor[15],
     height: "auto",
     opacity: "1",
     maxWidth: "100%",
     margin: "0 5px",
+    minHeight: "unset",
+    lineHeight: "24px",
+    textTransform: "uppercase",
+    fontSize: "12px",
+    fontWeight: "500",
   },
   pillsWithIcons: {
     borderRadius: "4px",
@@ -59,9 +61,6 @@ const navPillsStyle = (theme) => ({
     height: "30px",
     display: "block",
     margin: "15px 0 !important",
-    "&, & *": {
-      letterSpacing: "normal !important",
-    },
   },
   horizontalPills: {
     width: "100%",
@@ -72,69 +71,91 @@ const navPillsStyle = (theme) => ({
   },
   contentWrapper: {
     marginTop: "20px",
+    "& .react-swipeable-view-container > div > div": {
+      paddingLeft: "15px",
+      paddingRight: "15px",
+    },
   },
   primary: {
     "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: primaryColor,
+      color: whiteColor,
+      backgroundColor: primaryColor[0],
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4)",
+        "0 4px 20px 0px rgba(" +
+        hexToRgb(blackColor) +
+        ", 0.14), 0 7px 10px -5px rgba(" +
+        hexToRgb(primaryColor[0]) +
+        ", 0.4)",
     },
   },
   info: {
     "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: infoColor,
+      color: whiteColor,
+      backgroundColor: infoColor[0],
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4)",
+        "0 4px 20px 0px rgba(" +
+        hexToRgb(blackColor) +
+        ", 0.14), 0 7px 10px -5px rgba(" +
+        hexToRgb(successColor[0]) +
+        ", 0.4)",
     },
   },
   success: {
     "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: successColor,
+      color: whiteColor,
+      backgroundColor: successColor[0],
       boxShadow:
-        "0 2px 2px 0 rgba(76, 175, 80, 0.14), 0 3px 1px -2px rgba(76, 175, 80, 0.2), 0 1px 5px 0 rgba(76, 175, 80, 0.12)",
+        "0 2px 2px 0 rgba(" +
+        hexToRgb(successColor[0]) +
+        ", 0.14), 0 3px 1px -2px rgba(" +
+        hexToRgb(successColor[0]) +
+        ", 0.2), 0 1px 5px 0 rgba(" +
+        hexToRgb(successColor[0]) +
+        ", 0.12)",
     },
   },
   warning: {
     "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: warningColor,
+      color: whiteColor,
+      backgroundColor: warningColor[0],
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4)",
+        "0 4px 20px 0px rgba(" +
+        hexToRgb(blackColor) +
+        ", 0.14), 0 7px 10px -5px rgba(" +
+        hexToRgb(warningColor[0]) +
+        ", 0.4)",
     },
   },
   danger: {
     "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: dangerColor,
+      color: whiteColor,
+      backgroundColor: dangerColor[0],
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4)",
+        "0 4px 20px 0px rgba(" +
+        hexToRgb(blackColor) +
+        ", 0.14), 0 7px 10px -5px rgba(" +
+        hexToRgb(warningColor[0]) +
+        ", 0.4)",
     },
   },
   rose: {
     "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: roseColor,
+      color: whiteColor,
+      backgroundColor: roseColor[0],
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4)",
+        "0 4px 20px 0px rgba(" +
+        hexToRgb(blackColor) +
+        ", 0.14), 0 7px 10px -5px rgba(" +
+        hexToRgb(roseColor[0]) +
+        ", 0.4)",
     },
   },
   alignCenter: {
     alignItems: "center",
     justifyContent: "center",
   },
-  tabWrapper: {
-    color: "inherit",
-    position: "relative",
-    fontSize: "12px",
-    lineHeight: "24px",
-    fontWeight: "500",
-    textTransform: "uppercase",
-    "&,& *": {
-      letterSpacing: "normal",
-    },
+  tabLabelContainer: {
+    padding: "unset !important",
   },
 });
 

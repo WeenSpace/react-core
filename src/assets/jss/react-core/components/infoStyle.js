@@ -7,13 +7,13 @@ import {
   roseColor,
   grayColor,
   title,
-} from "assets/jss/react-core.js";
+} from "assets/jss/react-core";
 
 const infoStyle = {
   infoArea: {
     maxWidth: "360px",
     margin: "0 auto",
-    padding: "0px",
+    padding: "70px 0 30px",
   },
   iconWrapper: {
     float: "left",
@@ -21,40 +21,48 @@ const infoStyle = {
     marginRight: "10px",
   },
   primary: {
-    color: primaryColor,
+    color: primaryColor[0],
   },
   warning: {
-    color: warningColor,
+    color: warningColor[0],
   },
   danger: {
-    color: dangerColor,
+    color: dangerColor[0],
   },
   success: {
-    color: successColor,
+    color: successColor[0],
   },
   info: {
-    color: infoColor,
+    color: infoColor[0],
   },
   rose: {
-    color: roseColor,
+    color: roseColor[0],
   },
   gray: {
-    color: grayColor,
+    color: grayColor[0],
   },
   icon: {
-    width: "36px",
-    height: "36px",
+    width: "2.25rem",
+    height: "2.25rem",
+    fontSize: "2.25rem",
   },
   descriptionWrapper: {
-    color: grayColor,
+    color: grayColor[0],
     overflow: "hidden",
   },
-  title,
+  title: {
+    ...title,
+    margin: "1.75rem 0 0.875rem !important",
+    minHeight: "unset",
+  },
   description: {
-    color: grayColor,
+    color: grayColor[0],
     overflow: "hidden",
     marginTop: "0px",
-    fontSize: "14px",
+    "& p": {
+      color: grayColor[0],
+      fontSize: "14px",
+    },
   },
   iconWrapperVertical: {
     float: "none",

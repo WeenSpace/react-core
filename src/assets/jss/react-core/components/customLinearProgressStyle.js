@@ -6,7 +6,8 @@ import {
   infoColor,
   roseColor,
   grayColor,
-} from "assets/jss/react-core.js";
+  hexToRgb,
+} from "assets/jss/react-core";
 
 const customLinearProgressStyle = {
   root: {
@@ -18,46 +19,46 @@ const customLinearProgressStyle = {
     height: "4px",
   },
   primary: {
-    backgroundColor: primaryColor,
+    backgroundColor: primaryColor[0],
   },
   warning: {
-    backgroundColor: warningColor,
+    backgroundColor: warningColor[0],
   },
   danger: {
-    backgroundColor: dangerColor,
+    backgroundColor: dangerColor[0],
   },
   success: {
-    backgroundColor: successColor,
+    backgroundColor: successColor[0],
   },
   info: {
-    backgroundColor: infoColor,
+    backgroundColor: infoColor[0],
   },
   rose: {
-    backgroundColor: roseColor,
+    backgroundColor: roseColor[0],
   },
   gray: {
-    backgroundColor: grayColor,
+    backgroundColor: grayColor[0],
   },
   primaryBackground: {
-    background: "rgba(156, 39, 176, 0.2)",
+    background: "rgba(" + hexToRgb(primaryColor[0]) + ", 0.2)",
   },
   warningBackground: {
-    background: "rgba(255, 152, 0, 0.2)",
+    background: "rgba(" + hexToRgb(warningColor[0]) + ", 0.2)",
   },
   dangerBackground: {
-    background: "rgba(244, 67, 54, 0.2)",
+    background: "rgba(" + hexToRgb(dangerColor[0]) + ", 0.2)",
   },
   successBackground: {
-    background: "rgba(76, 175, 80, 0.2)",
+    background: "rgba(" + hexToRgb(successColor[0]) + ", 0.2)",
   },
   infoBackground: {
-    background: "rgba(0, 188, 212, 0.2)",
+    background: "rgba(" + hexToRgb(infoColor[0]) + ", 0.2)",
   },
   roseBackground: {
-    background: "rgba(233, 30, 99, 0.2)",
+    background: "rgba(" + hexToRgb(roseColor[0]) + ", 0.2)",
   },
   grayBackground: {
-    background: "rgba(221, 221, 221, 0.2)",
+    background: "rgba(" + hexToRgb(grayColor[6]) + ", 0.2)",
   },
 };
 

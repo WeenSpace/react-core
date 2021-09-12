@@ -5,7 +5,9 @@ import {
   successColor,
   warningColor,
   dangerColor,
-} from "assets/jss/react-core.js";
+  roseColor,
+  grayColor,
+} from "assets/jss/react-core";
 
 const typographyStyle = {
   defaultFontStyle: {
@@ -19,8 +21,8 @@ const typographyStyle = {
   quote: {
     padding: "10px 20px",
     margin: "0 0 20px",
-    fontSize: "17.5px",
-    borderLeft: "5px solid #eee",
+    fontSize: "1.25rem",
+    borderLeft: "5px solid " + grayColor[2],
   },
   quoteText: {
     margin: "0 0 10px",
@@ -30,31 +32,55 @@ const typographyStyle = {
     display: "block",
     fontSize: "80%",
     lineHeight: "1.42857143",
-    color: "#777",
+    color: grayColor[10],
   },
   mutedText: {
-    color: "#777",
+    "&, & *": {
+      color: grayColor[7],
+      display: "inline-block",
+    },
   },
   primaryText: {
-    color: primaryColor,
+    "&, & *": {
+      color: primaryColor[0],
+      display: "inline-block",
+    },
   },
   infoText: {
-    color: infoColor,
+    "&, & *": {
+      color: infoColor[0],
+      display: "inline-block",
+    },
   },
   successText: {
-    color: successColor,
+    "&, & *": {
+      color: successColor[0],
+      display: "inline-block",
+    },
   },
   warningText: {
-    color: warningColor,
+    "&, & *": {
+      color: warningColor[0],
+      display: "inline-block",
+    },
   },
   dangerText: {
-    color: dangerColor,
+    "&, & *": {
+      color: dangerColor[0],
+      display: "inline-block",
+    },
+  },
+  roseText: {
+    "&, & *": {
+      color: roseColor[0],
+      display: "inline-block",
+    },
   },
   smallText: {
     fontSize: "65%",
     fontWeight: "400",
     lineHeight: "1",
-    color: "#777",
+    color: grayColor[10],
   },
 };
 

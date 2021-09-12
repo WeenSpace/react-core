@@ -1,11 +1,22 @@
-import { container, title } from "assets/jss/react-core.js";
-import customCheckboxRadioSwitch from "assets/jss/react-core/customCheckboxRadioSwitch.js";
+import {
+  container,
+  whiteColor,
+  title,
+  mlAuto,
+  mrAuto,
+} from "assets/jss/react-core";
+import customCheckboxRadioSwitch from "assets/jss/react-core/customCheckboxRadioSwitchStyle";
+import customSelectStyle from "assets/jss/react-core/customSelectStyle";
 
 const basicsStyle = {
+  mlAuto,
+  mrAuto,
+  container,
+  ...customSelectStyle,
+  ...customCheckboxRadioSwitch,
   sections: {
     padding: "70px 0",
   },
-  container,
   title: {
     ...title,
     marginTop: "30px",
@@ -23,9 +34,8 @@ const basicsStyle = {
   icons: {
     width: "17px",
     height: "17px",
-    color: "#FFFFFF",
+    color: whiteColor,
   },
-  ...customCheckboxRadioSwitch,
 };
 
 export default basicsStyle;
