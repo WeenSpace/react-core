@@ -1,9 +1,9 @@
 import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+// @mui/icons-material
 // core components
 
 import styles from "assets/jss/react-core/components/mediaStyle";

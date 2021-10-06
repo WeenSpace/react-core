@@ -1,14 +1,14 @@
 import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Accordion from "@material-ui/core/Accordion";
-import AccordionSummary from "@material-ui/core/AccordionSummary";
-import AccordionDetails from "@material-ui/core/AccordionDetails";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
 
-// @material-ui/icons
-import ExpandMore from "@material-ui/icons/ExpandMore";
+// @mui/icons-material
+import ExpandMore from "@mui/icons-material/ExpandMore";
 
 import styles from "assets/jss/react-core/components/accordionStyle";
 

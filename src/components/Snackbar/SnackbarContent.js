@@ -1,13 +1,13 @@
 import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Snack from "@material-ui/core/SnackbarContent";
-import IconButton from "@material-ui/core/IconButton";
-import Icon from "@material-ui/core/Icon";
-// @material-ui/icons
-import Close from "@material-ui/icons/Close";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Snack from "@mui/material/SnackbarContent";
+import IconButton from "@mui/material/IconButton";
+import Icon from "@mui/material/Icon";
+// @mui/icons-material
+import Close from "@mui/icons-material/Close";
 // core components
 
 import styles from "assets/jss/react-core/components/snackbarContentStyle";
@@ -29,7 +29,7 @@ export default function SnackbarContent(props) {
         aria-label="Close"
         color="inherit"
         onClick={closeAlert}
-      >
+        size="large">
         <Close className={classes.close} />
       </IconButton>,
     ];

@@ -7,8 +7,8 @@ import GridItem from "components/Grid/GridItem";
 import Card from "components/Card/Card";
 import CardHeader from "components/Card/CardHeader";
 import CardBody from "components/Card/CardBody";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 
 import dg6 from "assets/img/dg6.jpg";
 import dg10 from "assets/img/dg10.jpg";

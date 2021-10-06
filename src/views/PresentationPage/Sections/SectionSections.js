@@ -8,8 +8,8 @@ import GridContainer from "components/Grid/GridContainer";
 import GridItem from "components/Grid/GridItem";
 // core components
 import Button from "components/CustomButtons/Button";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 
 import sectionsStyle from "assets/jss/react-core/views/presentationSections/sectionsStyle";
 

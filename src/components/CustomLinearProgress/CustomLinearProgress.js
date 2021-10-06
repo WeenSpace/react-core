@@ -2,9 +2,9 @@ import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
 
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import LinearProgress from "@material-ui/core/LinearProgress";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import LinearProgress from "@mui/material/LinearProgress";
 
 import styles from "assets/jss/react-core/components/customLinearProgressStyle";
 

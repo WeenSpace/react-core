@@ -3,13 +3,13 @@ import React from "react";
 import GridContainer from "components/Grid/GridContainer";
 import GridItem from "components/Grid/GridItem";
 import InfoArea from "components/InfoArea/InfoArea";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 // @material-ui icons
-import CardMembership from "@material-ui/icons/CardMembership";
-import CardGiftCard from "@material-ui/icons/CardGiftcard";
-import AttachMoney from "@material-ui/icons/AttachMoney";
-import QuestionAnswer from "@material-ui/icons/QuestionAnswer";
+import CardMembership from "@mui/icons-material/CardMembership";
+import CardGiftCard from "@mui/icons-material/CardGiftcard";
+import AttachMoney from "@mui/icons-material/AttachMoney";
+import QuestionAnswer from "@mui/icons-material/QuestionAnswer";
 
 import featuresStyle from "assets/jss/react-core/views/pricingSections/featuresStyle";
 

@@ -9,11 +9,11 @@ import CardHeader from "components/Card/CardHeader";
 import CardBody from "components/Card/CardBody";
 import CardFooter from "components/Card/CardFooter";
 import Button from "components/CustomButtons/Button";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Tooltip from "@material-ui/core/Tooltip";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Tooltip from "@mui/material/Tooltip";
 // @material-ui icons
-import Favorite from "@material-ui/icons/Favorite";
+import Favorite from "@mui/icons-material/Favorite";
 
 import styles from "assets/jss/react-core/views/ecommerceSections/latestOffersStyle";
 

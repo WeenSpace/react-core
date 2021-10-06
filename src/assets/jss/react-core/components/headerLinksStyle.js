@@ -18,7 +18,7 @@ const headerLinksStyle = (theme) => ({
       MsFlexDirection: "row",
       flexDirection: "row",
     },
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('lg')]: {
       display: "block",
     },
     marginTop: "0px",
@@ -36,7 +36,7 @@ const headerLinksStyle = (theme) => ({
     width: "auto",
     margin: "0",
     padding: "0",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('lg')]: {
       "& ul": {
         maxHeight: "400px",
         overflow: "scroll",
@@ -79,7 +79,7 @@ const headerLinksStyle = (theme) => ({
       marginBottom: "0px",
       fontSize: "1.25rem",
     },
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('lg')]: {
       width: "calc(100% - 30px)",
       marginLeft: "15px",
       marginBottom: "8px",
@@ -112,7 +112,7 @@ const headerLinksStyle = (theme) => ({
     textDecoration: "none",
     margin: "0px",
     display: "inline-flex",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('lg')]: {
       width: "calc(100% - 30px)",
       marginLeft: "15px",
       marginBottom: "5px",

@@ -8,8 +8,8 @@ import NavPills from "components/NavPills/NavPills";
 import Card from "components/Card/Card";
 import CardBody from "components/Card/CardBody";
 import Button from "components/CustomButtons/Button";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 
 import pricingStyle from "assets/jss/react-core/views/pricingSections/pricingStyle";
 

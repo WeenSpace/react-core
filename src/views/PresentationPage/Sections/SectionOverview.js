@@ -9,12 +9,12 @@ import Card from "components/Card/Card";
 import CardHeader from "components/Card/CardHeader";
 import CardBody from "components/Card/CardBody";
 // @material-ui icons
-import Grid from "@material-ui/icons/GridOn";
-import PhoneLink from "@material-ui/icons/Phonelink";
-import AccessTime from "@material-ui/icons/AccessTime";
-import AttachMoney from "@material-ui/icons/AttachMoney";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+import Grid from "@mui/icons-material/GridOn";
+import PhoneLink from "@mui/icons-material/Phonelink";
+import AccessTime from "@mui/icons-material/AccessTime";
+import AttachMoney from "@mui/icons-material/AttachMoney";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 
 // images
 import Vodafone from "assets/img/assets-for-demo/ourClients/vodafone.jpg";

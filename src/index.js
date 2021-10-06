@@ -18,6 +18,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import "assets/scss/react-core.scss?v=1.0.0";
 
@@ -40,27 +41,33 @@ import SignupPage from "views/SignupPage/SignupPage";
 import ErrorPage from "views/ErrorPage/ErrorPage";
 
 var hist = createBrowserHistory();
+const theme = createTheme();
+import { StyledEngineProvider } from '@mui/material/styles';
 
 ReactDOM.render(
-  <Router history={hist}>
-    <Switch>
-      <Route path="/about-us" component={AboutUsPage} />
-      <Route path="/blog-post" component={BlogPostPage} />
-      <Route path="/blog-posts" component={BlogPostsPage} />
-      <Route path="/components" component={ComponentsPage} />
-      <Route path="/contact-us" component={ContactUsPage} />
-      <Route path="/ecommerce-page" component={EcommercePage} />
-      <Route path="/landing-page" component={LandingPage} />
-      <Route path="/login-page" component={LoginPage} />
-      <Route path="/pricing" component={PricingPage} />
-      <Route path="/profile-page" component={ProfilePage} />
-      <Route path="/product-page" component={ProductPage} />
-      <Route path="/sections" component={SectionsPage} />
-      <Route path="/shopping-cart-page" component={ShoppingCartPage} />
-      <Route path="/signup-page" component={SignupPage} />
-      <Route path="/error-page" component={ErrorPage} />
-      <Route path="/" component={PresentationPage} />
-    </Switch>
-  </Router>,
+  <ThemeProvider theme={theme}>
+    <StyledEngineProvider injectFirst>
+      <Router history={hist}>
+        <Switch>
+          <Route path="/about-us" component={AboutUsPage} />
+          <Route path="/blog-post" component={BlogPostPage} />
+          <Route path="/blog-posts" component={BlogPostsPage} />
+          <Route path="/components" component={ComponentsPage} />
+          <Route path="/contact-us" component={ContactUsPage} />
+          <Route path="/ecommerce-page" component={EcommercePage} />
+          <Route path="/landing-page" component={LandingPage} />
+          <Route path="/login-page" component={LoginPage} />
+          <Route path="/pricing" component={PricingPage} />
+          <Route path="/profile-page" component={ProfilePage} />
+          <Route path="/product-page" component={ProductPage} />
+          <Route path="/sections" component={SectionsPage} />
+          <Route path="/shopping-cart-page" component={ShoppingCartPage} />
+          <Route path="/signup-page" component={SignupPage} />
+          <Route path="/error-page" component={ErrorPage} />
+          <Route path="/" component={PresentationPage} />
+        </Switch>
+      </Router>
+    </StyledEngineProvider>
+  </ThemeProvider>,
   document.getElementById("root")
 );

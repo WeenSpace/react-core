@@ -1,10 +1,10 @@
 import React from "react";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Tooltip from "@material-ui/core/Tooltip";
-// @material-ui/icons
-import Reply from "@material-ui/icons/Reply";
-import Favorite from "@material-ui/icons/Favorite";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Tooltip from "@mui/material/Tooltip";
+// @mui/icons-material
+import Reply from "@mui/icons-material/Reply";
+import Favorite from "@mui/icons-material/Favorite";
 // core components
 import GridContainer from "components/Grid/GridContainer";
 import GridItem from "components/Grid/GridItem";

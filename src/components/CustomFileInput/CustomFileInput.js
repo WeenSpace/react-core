@@ -1,8 +1,8 @@
 import React from "react";
 // used for making the prop types of this component
 import PropTypes from "prop-types";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 // core components
 import CustomInput from "components/CustomInput/CustomInput";
 import Button from "components/CustomButtons/Button";

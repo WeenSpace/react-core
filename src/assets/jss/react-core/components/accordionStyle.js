@@ -73,7 +73,7 @@ const accordionStyle = (theme) => ({
         top: "auto !important",
       },
       transform: "rotate(180deg)",
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down('lg')]: {
         top: "10px !important",
       },
       // some jss/css to make the cards look a bit better on Internet Explorer
@@ -115,7 +115,7 @@ const accordionStyle = (theme) => ({
     color: "inherit",
     right: "10px",
     position: "absolute",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('lg')]: {
       top: "10px !important",
     },
     // some jss/css to make the cards look a bit better on Internet Explorer

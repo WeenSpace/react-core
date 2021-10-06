@@ -8,11 +8,11 @@ import Button from "components/CustomButtons/Button";
 import Card from "components/Card/Card";
 import CardBody from "components/Card/CardBody";
 import CustomInput from "components/CustomInput/CustomInput";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import InputAdornment from "@material-ui/core/InputAdornment";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import InputAdornment from "@mui/material/InputAdornment";
 // @material-ui icons
-import Mail from "@material-ui/icons/Mail";
+import Mail from "@mui/icons-material/Mail";
 
 import bg7 from "assets/img/bg7.jpg";
 

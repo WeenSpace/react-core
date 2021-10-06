@@ -9,8 +9,8 @@ import CardAvatar from "components/Card/CardAvatar";
 import CardBody from "components/Card/CardBody";
 import CardFooter from "components/Card/CardFooter";
 import Button from "components/CustomButtons/Button";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 
 import teamStyle from "assets/jss/react-core/views/aboutUsSections/teamStyle";
 

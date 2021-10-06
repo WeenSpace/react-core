@@ -1,7 +1,7 @@
 import React from "react";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+// @mui/icons-material
 // core components
 import Header from "components/Header/Header";
 import HeaderLinks from "components/Header/HeaderLinks";

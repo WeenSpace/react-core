@@ -3,13 +3,13 @@ import React from "react";
 import classNames from "classnames";
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-// @material-ui/icons
-import Share from "@material-ui/icons/Share";
-import ShoppingCart from "@material-ui/icons/ShoppingCart";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+// @mui/icons-material
+import Share from "@mui/icons-material/Share";
+import ShoppingCart from "@mui/icons-material/ShoppingCart";
 // core components
 import Header from "components/Header/Header";
 import Button from "components/CustomButtons/Button";

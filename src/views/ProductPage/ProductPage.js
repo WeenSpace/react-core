@@ -4,18 +4,18 @@ import React from "react";
 import classNames from "classnames";
 // react component used to create nice image meadia player
 import ImageGallery from "react-image-gallery";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import FormControl from "@material-ui/core/FormControl";
-import Select from "@material-ui/core/Select";
-import MenuItem from "@material-ui/core/MenuItem";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-// @material-ui/icons
-import ShoppingCart from "@material-ui/icons/ShoppingCart";
-import LocalShipping from "@material-ui/icons/LocalShipping";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Favorite from "@material-ui/icons/Favorite";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
+import MenuItem from "@mui/material/MenuItem";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+// @mui/icons-material
+import ShoppingCart from "@mui/icons-material/ShoppingCart";
+import LocalShipping from "@mui/icons-material/LocalShipping";
+import VerifiedUser from "@mui/icons-material/VerifiedUser";
+import Favorite from "@mui/icons-material/Favorite";
 // core components
 import Header from "components/Header/Header";
 import HeaderLinks from "components/Header/HeaderLinks";
@@ -30,7 +30,7 @@ import Card from "components/Card/Card";
 import CardHeader from "components/Card/CardHeader";
 import CardBody from "components/Card/CardBody";
 import CardFooter from "components/Card/CardFooter";
-import Tooltip from "@material-ui/core/Tooltip";
+import Tooltip from "@mui/material/Tooltip";
 
 import productStyle from "assets/jss/react-core/views/productStyle";
 

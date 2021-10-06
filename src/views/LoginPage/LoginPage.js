@@ -1,15 +1,15 @@
 /*eslint-disable*/
 import React from "react";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import Icon from "@material-ui/core/Icon";
-// @material-ui/icons
-import Email from "@material-ui/icons/Email";
-import Favorite from "@material-ui/icons/Favorite";
-import Face from "@material-ui/icons/Face";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import InputAdornment from "@mui/material/InputAdornment";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import Icon from "@mui/material/Icon";
+// @mui/icons-material
+import Email from "@mui/icons-material/Email";
+import Favorite from "@mui/icons-material/Favorite";
+import Face from "@mui/icons-material/Face";
 // core components
 import Header from "components/Header/Header";
 import HeaderLinks from "components/Header/HeaderLinks";
