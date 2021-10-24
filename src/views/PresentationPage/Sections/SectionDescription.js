@@ -5,11 +5,11 @@ import GridItem from "components/Grid/GridItem";
 import InfoArea from "components/InfoArea/InfoArea";
 
 // @material-ui icons
-import Apps from "@material-ui/icons/Apps";
-import ViewDay from "@material-ui/icons/ViewDay";
-import ViewCarousel from "@material-ui/icons/ViewCarousel";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+import Apps from "@mui/icons-material/Apps";
+import ViewDay from "@mui/icons-material/ViewDay";
+import ViewCarousel from "@mui/icons-material/ViewCarousel";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 
 import descriptionStyle from "assets/jss/react-core/views/presentationSections/descriptionStyle";
 

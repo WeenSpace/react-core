@@ -3,17 +3,17 @@ import React from "react";
 import classNames from "classnames";
 // plugin that creates slider
 import Slider from "nouislider";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Checkbox from "@material-ui/core/Checkbox";
-import Tooltip from "@material-ui/core/Tooltip";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Checkbox from "@mui/material/Checkbox";
+import Tooltip from "@mui/material/Tooltip";
+import FormControlLabel from "@mui/material/FormControlLabel";
 // @material-ui icons
-import Favorite from "@material-ui/icons/Favorite";
-import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
-import Cached from "@material-ui/icons/Cached";
-import Subject from "@material-ui/icons/Subject";
-import Check from "@material-ui/icons/Check";
+import Favorite from "@mui/icons-material/Favorite";
+import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
+import Cached from "@mui/icons-material/Cached";
+import Subject from "@mui/icons-material/Subject";
+import Check from "@mui/icons-material/Check";
 // core components
 import Accordion from "components/Accordion/Accordion";
 import GridContainer from "components/Grid/GridContainer";

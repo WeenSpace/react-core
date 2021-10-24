@@ -1,11 +1,11 @@
 /*eslint-disable*/
 import React from "react";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+// @mui/icons-material
+import Favorite from "@mui/icons-material/Favorite";
 // core components
 import Header from "components/Header/Header";
 import HeaderLinks from "components/Header/HeaderLinks";

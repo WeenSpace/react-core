@@ -1,11 +1,11 @@
 import React from "react";
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
-import FormatQuote from "@material-ui/icons/FormatQuote";
-import Star from "@material-ui/icons/Star";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+// @mui/icons-material
+import FormatQuote from "@mui/icons-material/FormatQuote";
+import Star from "@mui/icons-material/Star";
 // core components
 import GridContainer from "components/Grid/GridContainer";
 import GridItem from "components/Grid/GridItem";

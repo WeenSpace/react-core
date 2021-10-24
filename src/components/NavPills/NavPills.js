@@ -4,10 +4,10 @@ import classNames from "classnames";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
 
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Tab from "@material-ui/core/Tab";
-import Tabs from "@material-ui/core/Tabs";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Tab from "@mui/material/Tab";
+import Tabs from "@mui/material/Tabs";
 
 // core components
 import GridContainer from "components/Grid/GridContainer";

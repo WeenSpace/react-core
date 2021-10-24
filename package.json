@@ -1,7 +1,7 @@
 {
   "homepage": "https://weenspace.github.io/react-core",
   "name": "@weenspace/react-core",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Material React Core. Coded by WeenSpace",
   "private": false,
   "main": "src/index.js",
@@ -22,13 +22,18 @@
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.14.0",
-    "@material-ui/core": "4.12.3",
-    "@material-ui/icons": "4.11.2",
+    "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
+    "@mui/codemod": "5.0.4",
+    "@mui/icons-material": "5.0.4",
+    "@mui/lab": "5.0.0-alpha.51",
+    "@mui/material": "5.0.4",
+    "@mui/styles": "5.0.1",
     "animate.css": "4.1.1",
     "classnames": "2.3.1",
-    "google-maps-react": "^2.0.6",
+    "google-maps-react": "2.0.6",
     "moment": "2.29.1",
-    "node-sass": "6.0.0",
+    "node-sass": "4.14.1",
     "nouislider": "15.1.0",
     "prop-types": "15.7.2",
     "react": "17.0.2",
@@ -73,6 +78,9 @@
     "compile-sass": "node-sass src/assets/scss/react-core.scss src/assets/css/react-core.css",
     "minify-sass": "node-sass src/assets/scss/react-core.scss src/assets/css/react-core.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/react-core.scss src/assets/css/react-core.css --source-map true"
+  },
+  "engines": {
+    "node": ">=14.16.0 <15"
   },
   "browserslist": {
     "production": [

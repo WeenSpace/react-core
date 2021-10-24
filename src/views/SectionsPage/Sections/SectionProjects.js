@@ -1,16 +1,16 @@
 /* eslint-disable */
 import React from "react";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Icon from "@material-ui/core/Icon";
-// @material-ui/icons
-import Build from "@material-ui/icons/Build";
-import Subject from "@material-ui/icons/Subject";
-import FormatPaint from "@material-ui/icons/FormatPaint";
-import Code from "@material-ui/icons/Code";
-import Dashboard from "@material-ui/icons/Dashboard";
-import Timeline from "@material-ui/icons/Timeline";
-import Group from "@material-ui/icons/Group";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Icon from "@mui/material/Icon";
+// @mui/icons-material
+import Build from "@mui/icons-material/Build";
+import Subject from "@mui/icons-material/Subject";
+import FormatPaint from "@mui/icons-material/FormatPaint";
+import Code from "@mui/icons-material/Code";
+import Dashboard from "@mui/icons-material/Dashboard";
+import Timeline from "@mui/icons-material/Timeline";
+import Group from "@mui/icons-material/Group";
 // core components
 import GridContainer from "components/Grid/GridContainer";
 import GridItem from "components/Grid/GridItem";

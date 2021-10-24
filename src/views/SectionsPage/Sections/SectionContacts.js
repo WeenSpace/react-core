@@ -1,12 +1,12 @@
 import React from "react";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Checkbox from "@material-ui/core/Checkbox";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-// @material-ui/icons
-import PinDrop from "@material-ui/icons/PinDrop";
-import Phone from "@material-ui/icons/Phone";
-import Check from "@material-ui/icons/Check";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Checkbox from "@mui/material/Checkbox";
+import FormControlLabel from "@mui/material/FormControlLabel";
+// @mui/icons-material
+import PinDrop from "@mui/icons-material/PinDrop";
+import Phone from "@mui/icons-material/Phone";
+import Check from "@mui/icons-material/Check";
 // core components
 import GridContainer from "components/Grid/GridContainer";
 import GridItem from "components/Grid/GridItem";

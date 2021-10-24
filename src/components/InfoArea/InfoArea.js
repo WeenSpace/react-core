@@ -3,9 +3,9 @@ import React from "react";
 import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Icon from "@material-ui/core/Icon";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import Icon from "@mui/material/Icon";
 
 import styles from "assets/jss/react-core/components/infoStyle";
 

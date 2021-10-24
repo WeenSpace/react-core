@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 import GridContainer from "components/Grid/GridContainer";
 import GridItem from "components/Grid/GridItem";
 import Card from "components/Card/Card";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
 
 import examplesStyle from "assets/jss/react-core/views/presentationSections/examplesStyle";
 import imagesStyles from "assets/jss/react-core/imagesStyles";

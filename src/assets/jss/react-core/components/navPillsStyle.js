@@ -19,7 +19,7 @@ const navPillsStyle = (theme) => ({
     overflow: "visible !important",
   },
   flexContainer: {
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down('md')]: {
       display: "flex",
       flexWrap: "wrap",
     },

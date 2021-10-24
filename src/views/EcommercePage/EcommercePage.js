@@ -17,13 +17,13 @@ import HeaderLinks from "components/Header/HeaderLinks";
 import SectionLatestOffers from "views/EcommercePage/Sections/SectionLatestOffers";
 import SectionProducts from "views/EcommercePage/Sections/SectionProducts";
 import SectionBlog from "views/EcommercePage/Sections/SectionBlog";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import InputAdornment from "@material-ui/core/InputAdornment";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import InputAdornment from "@mui/material/InputAdornment";
 // @material-ui icons
-import Mail from "@material-ui/icons/Mail";
+import Mail from "@mui/icons-material/Mail";
 
 import ecommerceHeader from "assets/img/examples/ecommerce-header.jpg";
 import face1 from "assets/img/faces/card-profile6-square.jpg";
