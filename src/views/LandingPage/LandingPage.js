@@ -61,7 +61,7 @@ export default function LandingPage({ ...rest }) {
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com/watch?v=G2qsC9BMSw0&ref=weenspace"
                 target="_blank"
               >
                 <i className="fas fa-play" />

@@ -1,7 +1,7 @@
 {
   "homepage": "https://weenspace.github.io/react-core",
   "name": "@weenspace/react-core",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Material React Core. Coded by WeenSpace",
   "private": false,
   "main": "src/index.js",

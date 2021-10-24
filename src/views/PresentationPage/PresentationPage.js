@@ -130,7 +130,7 @@ export default function PresentationPage() {
               <ul>
                 <li>
                   <Button
-                    href="https://twitter.com/WeenSpace?ref=creativetim"
+                    href="https://twitter.com/WeenSpace?ref=weenspace"
                     target="_blank"
                     color="twitter"
                     justIcon
@@ -141,7 +141,7 @@ export default function PresentationPage() {
                 </li>
                 <li>
                   <Button
-                    href="https://dribbble.com/creativetim?ref=creativetim"
+                    href="https://dribbble.com/creativetim?ref=weenspace"
                     target="_blank"
                     color="dribbble"
                     justIcon
@@ -152,7 +152,7 @@ export default function PresentationPage() {
                 </li>
                 <li>
                   <Button
-                    href="https://instagram.com/CreativeTimOfficial?ref=creativetim"
+                    href="https://instagram.com/WeenSpace?ref=weenspace"
                     target="_blank"
                     color="instagram"
                     justIcon

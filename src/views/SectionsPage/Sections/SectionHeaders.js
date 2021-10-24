@@ -97,7 +97,7 @@ export default function SectionHeaders({ ...rest }) {
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://twitter.com/WeenSpace?ref=creativetim"
+                    href="https://twitter.com/WeenSpace?ref=weenspace"
                     target="_blank"
                     className={classes.navLink + " " + classes.navLinkJustIcon}
                   >
@@ -107,7 +107,7 @@ export default function SectionHeaders({ ...rest }) {
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://www.facebook.com/WeenSpace?ref=creativetim"
+                    href="https://www.facebook.com/WeenSpace?ref=weenspace"
                     target="_blank"
                     className={classes.navLink + " " + classes.navLinkJustIcon}
                   >
@@ -117,7 +117,7 @@ export default function SectionHeaders({ ...rest }) {
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                    href="https://www.instagram.com/WeenSpace?ref=weenspace"
                     target="_blank"
                     className={classes.navLink + " " + classes.navLinkJustIcon}
                   >
@@ -145,7 +145,7 @@ export default function SectionHeaders({ ...rest }) {
                 <Button
                   color="danger"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                  href="https://www.youtube.com/watch?v=G2qsC9BMSw0&ref=weenspace"
                   target="_blank"
                   rel=""
                 >
@@ -157,7 +157,7 @@ export default function SectionHeaders({ ...rest }) {
                 <div className={classes.iframeContainer}>
                   <iframe
                     height="250"
-                    src="https://www.youtube.com/embed/IN6QnLpVEPI?ref=creativetim"
+                    src="https://www.youtube.com/embed/yKVcDu7vv4w?ref=weenspace"
                     frameBorder="0"
                     allow="encrypted-media"
                     allowFullScreen=""
@@ -224,7 +224,7 @@ export default function SectionHeaders({ ...rest }) {
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://twitter.com/WeenSpace?ref=creativetim"
+                    href="https://twitter.com/WeenSpace?ref=weenspace"
                     target="_blank"
                     className={classes.navLink + " " + classes.navLinkJustIcon}
                   >
@@ -234,7 +234,7 @@ export default function SectionHeaders({ ...rest }) {
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://www.facebook.com/WeenSpace?ref=creativetim"
+                    href="https://www.facebook.com/WeenSpace?ref=weenspace"
                     target="_blank"
                     className={classes.navLink + " " + classes.navLinkJustIcon}
                   >
@@ -244,7 +244,7 @@ export default function SectionHeaders({ ...rest }) {
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
-                    href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                    href="https://www.instagram.com/WeenSpace?ref=weenspace"
                     target="_blank"
                     className={classes.navLink + " " + classes.navLinkJustIcon}
                   >

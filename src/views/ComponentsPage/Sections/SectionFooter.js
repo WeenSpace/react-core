@@ -95,7 +95,7 @@ export default function SectionFooter() {
                 <ul>
                   <li>
                     <Button
-                      href="https://twitter.com/WeenSpace?ref=creativetim"
+                      href="https://twitter.com/WeenSpace?ref=weenspace"
                       target="_blank"
                       color="twitter"
                       justIcon
@@ -106,7 +106,7 @@ export default function SectionFooter() {
                   </li>
                   <li>
                     <Button
-                      href="https://dribbble.com/creativetim?ref=creativetim"
+                      href="https://dribbble.com/creativetim?ref=weenspace"
                       target="_blank"
                       color="dribbble"
                       justIcon
@@ -117,7 +117,7 @@ export default function SectionFooter() {
                   </li>
                   <li>
                     <Button
-                      href="https://instagram.com/CreativeTimOfficial?ref=creativetim"
+                      href="https://instagram.com/WeenSpace?ref=weenspace"
                       target="_blank"
                       color="google"
                       justIcon
@@ -258,7 +258,7 @@ export default function SectionFooter() {
                 <ul>
                   <li>
                     <Button
-                      href="https://twitter.com/WeenSpace?ref=creativetim"
+                      href="https://twitter.com/WeenSpace?ref=weenspace"
                       target="_blank"
                       color="white"
                       justIcon
@@ -269,7 +269,7 @@ export default function SectionFooter() {
                   </li>
                   <li>
                     <Button
-                      href="https://dribbble.com/creativetim?ref=creativetim"
+                      href="https://dribbble.com/creativetim?ref=weenspace"
                       target="_blank"
                       color="white"
                       justIcon
@@ -280,7 +280,7 @@ export default function SectionFooter() {
                   </li>
                   <li>
                     <Button
-                      href="https://instagram.com/CreativeTimOfficial?ref=creativetim"
+                      href="https://instagram.com/WeenSpace?ref=weenspace"
                       target="_blank"
                       color="white"
                       justIcon
